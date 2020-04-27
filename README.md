@@ -16,3 +16,4 @@ If you want to change the logo when Kibana first loads, change `src/core/server/
             background-image: url('data:image/svg+xml;base64,<yourbase64image>');
           }
 ```
+To change the start-up text "Loading Kibana", look in `src/core/server/rendering/views/template.js`.
