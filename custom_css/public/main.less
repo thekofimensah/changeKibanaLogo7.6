@@ -7,3 +7,10 @@ a[data-test-subj="logo"] {
   border-bottom: none;
   background-position: 10px 10px;
 }
+// Persist the logo when you click on it
+a[data-test-subj="logo"]:focus {
+  background: url('data:image/svg+xml;base64,<yourbase64image>') no-repeat 0 0;
+  background-size: auto 26px;
+  border-bottom: none;
+  background-position: 10px 10px;
+}
