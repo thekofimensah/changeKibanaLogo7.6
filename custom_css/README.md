@@ -1,4 +1,4 @@
-# custom_css1
+# Update Kibana's Corporate Identity 
 
 > This is a plugin that you can use in order to change the original Corporate Identity of Kibana to your own.
 
