@@ -1,3 +1,4 @@
+// Hide the logo in the top left of the screen.
 a[data-test-subj="logo"] * {
   display: none;
 }
@@ -13,4 +14,21 @@ a[data-test-subj="logo"]:focus {
   background-size: auto 26px;
   border-bottom: none;
   background-position: 10px 10px;
+}
+// Hide the logo in the login page.
+span[class="loginWelcome__logo"] * {
+  display: none;
+}
+span[class="loginWelcome__logo"] {
+  background: url('data:image/png;base64,<yourbase64image>') no-repeat 0 0;
+  background-size: auto 60px;
+  border-bottom: none;
+  background-position: 10px 10px;
+}
+// Hide background image in the login page.
+.loginWelcome::before {
+content: '' !important;
+}
+.loginWelcome::after {
+content: '' !important;
 }
