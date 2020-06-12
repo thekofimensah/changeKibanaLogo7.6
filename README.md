@@ -17,4 +17,5 @@ If you want to change the logo when Kibana first loads, change `src/core/server/
             background-image: url('data:image/svg+xml;base64,<yourbase64image>');
           }
 ```
-To change the start-up text "Loading Kibana", look in `src/core/server/rendering/views/template.js`.
+To change the start-up text "Loading Kibana", look in `src/core/server/rendering/views/template.js`.  
+If you want to change the logo on the Space Selector, please go to `x-pack/legacy/plugins/spaces/public/space_selector/space_selector.tsx` , search for `logoKibana` and change it to your svg icon, as explained [here](https://elastic.github.io/eui/#/display/icons).
