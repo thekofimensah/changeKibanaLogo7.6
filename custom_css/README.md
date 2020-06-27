@@ -1,10 +1,10 @@
-# custom_css1
+# Update Kibana's Corporate Identity 
 
-> An awesome Kibana plugin
+> This is a plugin that you can use in order to change the original Corporate Identity of Kibana to your own.
 
 ---
 
-## development
+## Development
 
 See the [kibana contributing guide](https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. Once you have completed that, use the following yarn scripts.
 
@@ -21,17 +21,3 @@ See the [kibana contributing guide](https://github.com/elastic/kibana/blob/maste
       ```
       yarn start --elasticsearch.hosts http://localhost:9220
       ```
-
-  - `yarn build`
-
-    Build a distributable archive of your plugin.
-
-  - `yarn test:browser`
-
-    Run the browser tests in a real web browser.
-
-  - `yarn test:mocha`
-
-    Run the server tests using mocha.
-
-For more information about any of these commands run `yarn ${task} --help`. For a full list of tasks checkout the `package.json` file, or run `yarn run`.
